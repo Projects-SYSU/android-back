@@ -11,8 +11,6 @@
   <properties>
     <jettyVersion>9.3.7.v20160115</jettyVersion>
     <cxf.version>3.1.6</cxf.version>
-    <maven.compiler.source>1.5</maven.compiler.source>
-    <maven.compiler.target>1.5</maven.compiler.target>
   </properties>  
   
   <dependencies>

@@ -3,6 +3,15 @@ package demo.jaxrs.server;
 public class UserData {
     private long id;
     private int workingTime;
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public long getId() {
         return id;
@@ -48,11 +57,11 @@ public class UserData {
         id = -1;
     }
 
-    public UserData(long id, int workingTime, int stepCount, String date) {
+    public UserData(long id, int workingTime, int stepCount, String date, String name) {
         this.id = id;
         this.workingTime = workingTime;
         this.stepCount = stepCount;
         this.date = date;
-
+        this.name = name;
     }
 }
